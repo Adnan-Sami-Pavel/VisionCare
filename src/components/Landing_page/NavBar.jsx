@@ -22,7 +22,7 @@ const  NavBar  = () => {
       {/* Navigation Links */}
       <div className='flex grow justify-evenly'>
         <NavLink to='/ehc'>
-          <p className='text-xl font-normal hover:text-blue-500'>Eye Health & Care</p>
+          <p className='text-xl font-normal hover:text-blue-500 '>Eye Health & Care</p>
         </NavLink>
         <NavLink to='/visiontest'>
           <p className='text-xl font-normal hover:text-blue-500'>Your Vision</p>
@@ -54,6 +54,7 @@ const  NavBar  = () => {
     </div>
   </div>
 </>
+
 
     </>
   )

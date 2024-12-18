@@ -2,7 +2,7 @@ import React from 'react'
 import eyevideo from '../../assets/eyevideo.mp4'
 import e_chart from '../../assets/e_chart.webp'
 import home_img from '../../assets/home_img.jpg'
-
+import aboutus_stage from '../../assets/aboutus_stage.mp4'
 
 
 
@@ -12,7 +12,7 @@ const Home = () => {
       <div className="relative h-screen w-full bg-white">
         <video
           className=" top-0 left-0 w-full h-3/5 object-cover"
-          src={eyevideo}
+          src={aboutus_stage}
           autoPlay
           loop
           muted
@@ -62,7 +62,7 @@ const Home = () => {
               src={e_chart}
               className="max-w-sm rounded-lg shadow-2xl" />
       </div>
-
+      
       {/* Text Section */}
       <div className="w-full md:w-1/2 mt-6 md:mt-0 md:pl-8 text-center md:text-left">
         <h2 className="text-3xl font-semibold text-gray-800">
