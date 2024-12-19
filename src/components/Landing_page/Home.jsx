@@ -1,5 +1,4 @@
 import React from 'react'
-import eyevideo from '../../assets/eyevideo.mp4'
 import e_chart from '../../assets/e_chart.webp'
 import home_img from '../../assets/home_img.jpg'
 import aboutus_stage from '../../assets/aboutus_stage.mp4'
@@ -8,7 +7,7 @@ import aboutus_stage from '../../assets/aboutus_stage.mp4'
 
 const Home = () => {
   return (
-    <div className='container h-auto w-full mx-auto bg-lightMint'>
+    <div className=' h-auto w-full mx-auto bg-lightMint'>
       <div className="relative h-screen w-full bg-white">
         <video
           className=" top-0 left-0 w-full h-3/5 object-cover"
